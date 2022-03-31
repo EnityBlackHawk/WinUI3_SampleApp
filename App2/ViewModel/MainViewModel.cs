@@ -35,7 +35,6 @@ namespace App2.ViewModel
         }
         
         public MainWindow MainWindowInstance { get; set; }
-        public MainViewAnimations MainViewAnimationsInstance { get; set; }
         public HomeViewModel HomeViewModelInstance { get; set; }
         public SecondViewModel SecondViewModelInstance { get; set; }
 
@@ -48,7 +47,6 @@ namespace App2.ViewModel
         public MainViewModel()
         {
 
-            MainViewAnimationsInstance = new MainViewAnimations();
             HomeViewModelInstance = new HomeViewModel();
             SecondViewModelInstance = new SecondViewModel();
 
